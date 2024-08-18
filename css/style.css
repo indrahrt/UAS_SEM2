@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.medsos {
+  padding: 5px 0;
+  background-color: #0a336c;
+}
+.medsos ul li {
+  display: inline-block;
+  color: #fff;
+  margin-right: 10px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header h1 {
+  float: left;
+  padding: 15px 0;
+  color: #0a336c;
+}
+header ul {
+  float: right;
+}
+header ul li {
+  display: inline-block;
+  border-radius: 4rem;
+}
+header ul li a {
+  padding: 25px 20px;
+  display: inline-block;
+  border-radius: 4rem;
+  transition: all 300ms;
+}
+header ul li a:hover {
+  background-color: #0a336c;
+  color: #b2a30c;
+  transform: translateY(0);
+}
+.active {
+  background-color: #0a336c;
+  color: #b2a30c;
+}
+.gambar {
+  height: 60vh;
+  background-image: url("../image/background.jpg");
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gambar:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(36, 79, 187, 0.1);
+}
+.gambar h2 {
+  color: #b2a30c;
+  padding: 20px 25px;
+  border: 3px solid #094abd;
+}
+section {
+  padding: 100px;
+}
+section h1 {
+  text-align: center;
+  padding: 20px 0;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*  */
+.about {
+  background-color: #0a336c;
+}
+
+.foto {
+  width: 30%;
+  margin: 20px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+}
+.biodata {
+  width: 100%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 30px;
+  background-color: #fff;
+  border: 1px solid;
+  color: #0a336c;
+  line-height: 25px;
+  p,
+  ul,
+  li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+li{
+  margin-left: 40px;
+}
+}
+.wadah {
+  width: 60%;
+  margin: 5px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  display: inline-block;
+}
+
+.service {
+  background-color:#0a336c;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+.logo :hover > :not(:hover) {
+  filter: grayscale(1) blur(5px);
+}
+.logo img {
+  width: 100px;
+  transition: 0.5s;
+}
+.logo img :hover {
+  scale: 0.5;
+  margin: 10px;
+}
+.contact {
+  background-color: #fff;
+}
